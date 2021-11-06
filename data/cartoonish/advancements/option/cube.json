@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "using_bow": {
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "cartoonish:option/cube"
+            }
+        }
+    },
+    "rewards":{
+        "function" : "cartoonish:option/reward/recipe"
+    }
+}

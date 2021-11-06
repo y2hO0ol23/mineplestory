@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "skeletons": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#minecraft:skeletons"
+        },
+        "player": {
+          "location": {
+            "feature": "fortress"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "skeletons"
+    ]
+  ]
+}

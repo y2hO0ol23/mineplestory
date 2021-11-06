@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "player": {
+          "location": {
+            "feature": "bastion_remnant"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "piglin"
+    ]
+  ]
+}

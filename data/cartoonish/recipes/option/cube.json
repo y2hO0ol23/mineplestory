@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#" : {
+            "item": "minecraft:name_tag"
+        },
+        "/" : {
+            "item": "minecraft:amethyst_shard"
+        },
+        "C" : {
+            "item": "minecraft:crying_obsidian"
+        }
+    },
+    "pattern": [
+        "C/C",
+        "/#/",
+        "C/C"
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

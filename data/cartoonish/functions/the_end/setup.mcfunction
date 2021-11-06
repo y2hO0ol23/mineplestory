@@ -1,0 +1,5 @@
+scoreboard objectives add ct_end_Adv_basti dummy
+scoreboard objectives add ct_end_Adv_fortr dummy
+scoreboard objectives add ct_end_Adv_mansi dummy
+scoreboard objectives add ct_end_Adv_elder dummy
+scoreboard objectives add ct_end_Adv_withe dummy

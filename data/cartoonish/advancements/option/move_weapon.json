@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "weapon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"tag": "cartoonish:weapons"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["weapon"]
+  ]
+}

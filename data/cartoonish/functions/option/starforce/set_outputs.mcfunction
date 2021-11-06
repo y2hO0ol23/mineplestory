@@ -1,0 +1,28 @@
+data remove entity @e[tag=ct_star_force_item,type=armor_stand,limit=1] HandItems[1].tag.display.Lore[6]
+execute if data entity @s Inventory[{Slot:-106b}].tag.starForceLevel run data remove entity @e[tag=ct_star_force_item,type=armor_stand,limit=1] HandItems[1].tag.display.Lore[6]
+execute store result score @s TEMP run data get entity @e[tag=ct_star_force_item,type=armor_stand,limit=1] HandItems[1].tag.starForceLevel
+scoreboard players operation @s CNT -= @s TEMP
+data modify storage cartoonish:option/table starforceOutput set value []
+execute if score @s TEMP matches 1.. run function cartoonish:option/starforce/output/on
+execute if score @s CNT matches 1.. run function cartoonish:option/starforce/output/off
+data merge block 0 0 0 {Text1:"[{\"nbt\":\"starforceOutput[0]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[1]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[2]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[3]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[4]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"text\":\" \"},{\"nbt\":\"starforceOutput[5]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[6]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[7]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[8]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[9]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"}]"}
+data merge block 0 0 0 {Text2:"[{\"nbt\":\"starforceOutput[10]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[11]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[12]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[13]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[14]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"text\":\" \"},{\"nbt\":\"starforceOutput[15]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[16]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[17]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[18]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"},{\"nbt\":\"starforceOutput[19]\",\"storage\":\"cartoonish:option/table\",\"color\":\"yellow\"}]"}
+
+data modify entity @e[tag=ct_star_force_item,type=armor_stand,limit=1] HandItems[1].tag.display.Lore insert 6 from block 0 0 0 Text2
+data modify entity @e[tag=ct_star_force_item,type=armor_stand,limit=1] HandItems[1].tag.display.Lore insert 6 from block 0 0 0 Text1
+
+execute if data entity @s Inventory[{Slot:-106b}].tag.starForceLevel run data remove entity @e[tag=ct_star_force_item,type=armor_stand,limit=1] HandItems[1].tag.display.Lore[8]
+execute store result score @s TEMP run data get entity @e[tag=ct_star_force_item,type=armor_stand,limit=1] HandItems[1].tag.starForceLevel
+function cartoonish:option/starforce/get_ratio/start
+
+data merge block 0 0 0 {Text1:"[{\"text\":\"\"}]"}
+data modify storage cartoonish:option/table target set from entity @e[tag=ct_star_force_item,type=armor_stand,limit=1] HandItems[1]
+execute store result score @s TEMP run data get storage cartoonish:option/table target.tag.starForceLevel
+scoreboard players add @s TEMP 1
+execute store result score @s CNT run data get storage cartoonish:option/table target.tag.grade
+execute if score @s CNT matches 0 run scoreboard players set @s CNT 1
+scoreboard players operation @s CNT *= #5 TEMP
+execute if score @s TEMP <= @s CNT run function cartoonish:option/starforce/output/set_ratio
+data modify storage cartoonish:option/table target.tag.display.Lore insert 8 from block 0 0 0 Text1
+function cartoonish:option/roll/cal_stat
+data modify entity @e[tag=ct_star_force_item,type=armor_stand,limit=1] HandItems[1] set from storage cartoonish:option/table target

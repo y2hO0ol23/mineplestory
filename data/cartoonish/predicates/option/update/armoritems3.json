@@ -1,0 +1,12 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "head": {
+                "tag":"cartoonish:weapons",
+                "nbt": "{'ct_setup':1}"
+            }
+        }
+    }
+}

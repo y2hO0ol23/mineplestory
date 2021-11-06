@@ -1,0 +1,10 @@
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 1.. run effect give @s jump_boost 1 0 true
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 11.. run effect give @s jump_boost 1 1 true
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 21.. run effect give @s jump_boost 1 2 true
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 31.. run effect give @s jump_boost 1 3 true
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 41.. run effect give @s jump_boost 1 4 true
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 51.. run effect give @s jump_boost 1 5 true
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 61.. run effect give @s jump_boost 1 6 true
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 71.. run effect give @s jump_boost 1 7 true
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 81.. run effect give @s jump_boost 1 8 true
+execute if score @s CAL <= @s TEMP if score @s TEMP matches 91.. run effect give @s jump_boost 1 9 true

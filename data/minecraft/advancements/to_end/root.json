@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "Befor the End"
+    },
+    "description": {
+      "translate": "For using ender eyes"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+  },
+  "criteria": {
+    "possible":{
+      "trigger": "tick"
+    }
+  },
+  "requirements": [
+    [
+      "possible"
+    ]
+  ]
+}

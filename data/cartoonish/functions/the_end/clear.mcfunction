@@ -1,0 +1,10 @@
+advancement grant @a only cartoonish:the_end/bastion_remnant/hoglin
+advancement grant @a only cartoonish:the_end/bastion_remnant/piglin
+advancement grant @a only cartoonish:the_end/bastion_remnant/piglin_brute
+advancement grant @a only cartoonish:the_end/fortress/blaze
+advancement grant @a only cartoonish:the_end/fortress/skeletons
+advancement grant @a only cartoonish:the_end/fortress/zombified_piglin
+advancement grant @a only cartoonish:the_end/mansion/evoker
+advancement grant @a only cartoonish:the_end/mansion/vindicator
+advancement grant @a only cartoonish:the_end/elder_guardian
+advancement grant @a only cartoonish:the_end/wither

@@ -1,0 +1,9 @@
+attribute @s generic.armor modifier remove 63617274-6f6f-6e61-726d-6f726f70748
+attribute @s generic.armor modifier remove 63617274-6f6f-6e61-726d-6f726f70747
+attribute @s generic.armor modifier remove 63617274-6f6f-6e61-726d-6f726f70746
+attribute @s generic.armor modifier remove 63617274-6f6f-6e61-726d-6f726f70745
+attribute @s generic.armor modifier remove 63617274-6f6f-6e61-726d-6f726f70744
+attribute @s generic.armor modifier remove 63617274-6f6f-6e61-726d-6f726f70743
+attribute @s generic.armor modifier remove 63617274-6f6f-6e61-726d-6f726f70742
+attribute @s generic.armor modifier remove 63617274-6f6f-6e61-726d-6f726f70741
+attribute @s generic.armor modifier remove 63617274-6f6f-6e61-726d-6f726f70740

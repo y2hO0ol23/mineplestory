@@ -1,0 +1,6 @@
+data remove storage cartoonish:option/table target.tag.display.Lore[0]
+data remove storage cartoonish:option/table target.tag.display.Lore[0]
+data remove storage cartoonish:option/table target.tag.display.Lore[0]
+data remove storage cartoonish:option/table target.tag.display.Lore[0]
+data remove storage cartoonish:option/table target.tag.display.Lore[0]
+data remove storage cartoonish:option/table target.tag.display.Lore[0]

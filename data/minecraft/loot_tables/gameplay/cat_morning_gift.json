@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+        {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:rabbit_hide"
+            },
+            {
+            "type": "minecraft:item",
+            "weight": 10,   
+            "name": "minecraft:rabbit_foot"
+            },
+            {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:chicken"
+            },
+            {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:feather"
+            },
+            {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:rotten_flesh"
+            },
+            {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:string"
+            },
+            {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:phantom_membrane"
+            },
+            {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:structure_block",
+            "functions": [{"function": "set_nbt","tag": "{HideFlags:1,CUBE:1,grade:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0}],BlockEntityTag:{rotation:\"NONE\",mirror:\"NONE\",mode:\"DATA\"},display:{Name:'{\"text\":\"CUBE\",\"color\":\"white\"}',Lore:['{\"text\":\"[Normal]\",\"color\":\"white\"}','{\"text\":\"\"}','{\"text\":\"Usage : Swap hand\",\"color\":\"gray\"}','{\"text\":\"Upgrade by ancient debris\",\"color\":\"gray\"}']}}"}]
+            }
+        ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator"
+        },
+        "player": {
+          "location": {
+            "feature": "mansion"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "vindicator"
+    ]
+  ]
+}

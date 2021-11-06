@@ -1,0 +1,31 @@
+{
+    "parent": "minecraft:cube/upgrade/epic",
+    "display": {
+        "icon": {
+        "item": "minecraft:structure_block"
+        },
+        "title": {
+        "translate": "Use Cube #3"
+        },
+        "description": {
+        "translate": "Use [Epic] cube"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "function": "cartoonish:option/reward/task"
+    },
+    "criteria": {
+        "type1":{"trigger": "tick","conditions": {"player": [{"condition": "entity_scores","entity": "this","scores": {"ct_cube3_cnt":{"min":1}}}]}},
+        "type2":{"trigger": "tick","conditions": {"player": [{"condition": "entity_scores","entity": "this","scores": {"ct_cube3_cnt":{"min":2}}}]}},
+        "type3":{"trigger": "tick","conditions": {"player": [{"condition": "entity_scores","entity": "this","scores": {"ct_cube3_cnt":{"min":3}}}]}},
+        "type4":{"trigger": "tick","conditions": {"player": [{"condition": "entity_scores","entity": "this","scores": {"ct_cube3_cnt":{"min":4}}}]}},
+        "type5":{"trigger": "tick","conditions": {"player": [{"condition": "entity_scores","entity": "this","scores": {"ct_cube3_cnt":{"min":5}}}]}}
+    },
+    "requirements": [
+        ["type1"],["type2"],["type3"],["type4"],["type5"]
+    ]
+}

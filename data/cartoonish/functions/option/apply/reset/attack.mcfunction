@@ -1,0 +1,14 @@
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f7074d
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f7074c
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f7074b
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f7074a
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70749
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70748
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70747
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70746
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70745
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70744
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70743
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70742
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70741
+attribute @s generic.attack_damage modifier remove 6361746f-6f6e-6174-7461-636b6f70740

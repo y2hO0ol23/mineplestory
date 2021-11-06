@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "translate": "Enter the End"
+    },
+    "description": {
+      "translate": "Use eyes know!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+  },
+  "criteria": {
+    "bastion_remnant": {"trigger": "tick","conditions": {"player": [ {"condition": "entity_scores","entity": "this","scores": {"ct_end_Adv_basti": 3}}]}},
+    "fortress": {"trigger": "tick","conditions": {"player": [ {"condition": "entity_scores","entity": "this","scores": {"ct_end_Adv_fortr": 3}}]}},
+    "mansion": {"trigger": "tick","conditions": {"player": [ {"condition": "entity_scores","entity": "this","scores": {"ct_end_Adv_mansi": 2}}]}},
+    "elder_guardian": {"trigger": "tick","conditions": {"player": [ {"condition": "entity_scores","entity": "this","scores": {"ct_end_Adv_elder": 1}}]}},
+    "wither": {"trigger": "tick","conditions": {"player": [ {"condition": "entity_scores","entity": "this","scores": {"ct_end_Adv_withe": 1}}]}}
+  },
+  "requirements": [
+    ["bastion_remnant"],
+    ["fortress"],
+    ["mansion"],
+    ["elder_guardian"],
+    ["wither"]
+  ]
+}

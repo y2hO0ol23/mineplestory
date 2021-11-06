@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "cartoonish:start/main",
+    
+    "cartoonish:enchant/main",
+    "cartoonish:option/main",
+    "cartoonish:area/main",
+    
+    "cartoonish:shield/main",
+    "cartoonish:crossbow/main",
+    "cartoonish:bow/main",
+    
+    "cartoonish:the_end/main",
+    "cartoonish:monster/main",
+    
+    "cartoonish:death/main",
+
+    "cartoonish:end/main"
+  ]
+}

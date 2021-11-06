@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:to_end/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "Predator in the water"
+    },
+    "description": {
+      "translate": "Kill elder gaurdian"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "cartoonish:option/reward/goal"
+  },
+  "criteria": {
+    "adv_end": {"trigger": "minecraft:tick","conditions": {"player": [{"condition": "entity_scores","entity": "this","scores": {"ct_end_Adv_elder": 1}}]}}
+  },
+  "requirements": [
+    ["adv_end"]
+  ]
+}

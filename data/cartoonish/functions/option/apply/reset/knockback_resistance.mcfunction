@@ -1,0 +1,11 @@
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f7074a
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70749
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70748
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70747
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70746
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70745
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70744
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70743
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70742
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70741
+attribute @s generic.knockback_resistance modifier remove 63617274-6f6f-6e6b-6272-65736f70740

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "damage:setup/scores",
+    "random:private/setup",
+
+    "cartoonish:setup"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze"
+        },
+        "player": {
+          "location": {
+            "feature": "fortress"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blaze"
+    ]
+  ]
+}

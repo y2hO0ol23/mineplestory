@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "using_bow": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                "items": ["minecraft:bow"]
+                }
+            }
+        }
+    },
+    "rewards":{
+        "function" : "cartoonish:rewards/using_bow"
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:to_end/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "title": {
+      "translate": "The fallen king"
+    },
+    "description": {
+      "translate": "Kill all kind of entities came from bastion"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "cartoonish:option/reward/goal"
+  },
+  "criteria": {
+    "over1": {"trigger": "minecraft:tick","conditions": {"player": [{"condition": "entity_scores","entity": "this","scores": {"ct_end_Adv_basti":{"min": 1}}}]}},
+    "over2": {"trigger": "minecraft:tick","conditions": {"player": [{"condition": "entity_scores","entity": "this","scores": {"ct_end_Adv_basti":{"min": 2}}}]}},
+    "over3": {"trigger": "minecraft:tick","conditions": {"player": [{"condition": "entity_scores","entity": "this","scores": {"ct_end_Adv_basti":{"min": 3}}}]}}
+  },
+  "requirements": [
+    ["over1"],
+    ["over2"],
+    ["over3"]
+  ]
+}
